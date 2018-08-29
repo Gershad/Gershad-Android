@@ -1,0 +1,132 @@
+<resources>
+
+    <!-- General -->
+    <string name="dismiss">Dismiss</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+    <string name="verify">Verify</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="app_name">Gershad</string>
+    <string name="title_about">About</string>
+
+    <string name="reports_here">Reports here</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="out_of_range">Out of range</string>
+
+    <string name="report">Report</string>
+    <string name="location_not_available">Location Unavailable</string>
+    <string name="recent_submission_no_timestamp">Just now</string>
+
+    <!-- Gasht types -->
+    <string name="police">Police</string>
+    <string name="stop">Checkpoint</string>
+    <string name="van">Van</string>
+
+    <!-- Keys, do not translate -->
+
+    <string name="error_google_play_services">Google Play Services encountered a problem and cannot show the map.</string>
+
+    <!-- Onboarding -->
+
+    <string name="text_activity_onboarding1">Gershad is a solution for traveling safely through out your city</string>
+    <string name="text_activity_onboarding2">With Gershad you can now select the different types morality police</string>
+    <string name="text_activity_onboarding3">You can now add additional details and elaborate on each report</string>
+
+    <string name="title_onboarding1">Gershad</string>
+    <string name="title_onboarding2">Reports</string>
+    <string name="title_onboarding3">Additional Details</string>
+
+    <string name="title_saved_locations">Saved Locations</string>
+
+    <!--Misc -->
+    <string name="no_saved_items">You have not saved any locations yet</string>
+    <string name="error_location_undetermined">Cannot determine your location</string>
+    <string name="allow">Allow</string>
+    <string name="later">Later</string>
+    <string name="location_permission">Gershad needs your permission to turn on location servcies to pin point your location for reporting purposes.</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="reports">Reports</string>
+    <string name="saved_locations">Saved Locations</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="feedback">Feedback</string>
+    <string name="about_gershad">About Gershad</string>
+    <string name="version">Version</string>
+    <string name="submit">Submit</string>
+    <string name="no_email">No email client available</string>
+
+    <!--FAQ-->
+    <string name="yellow_location_pin_title">چگونه میتوانم مکان یک گشت را گزارش کنم؟</string>
+    <string name="yellow_location_pin_content">پس ازانتخاب مکان گزارش‌ خود، روی آدرس نما که به رنگ زرد است کلیک کنید و دکمه گزارش  را فشار دهید.</string>
+    <string name="grey_location_pin_title">چرا نمیتوانم مکان یک گشت را گزارش کنم؟</string>
+    <string name="grey_location_pin_content">وقتی محل گشت مورد نظر شما دورتر از ۱۰۰۰ متر مکان جغرافیایی شما است، رنگ آدرس‌نما طوسی می‌شود. در این حالت شما امکان گزارش گشت را ندارید.</string>
+    <string name="gasht_alpha_full_title">گشت</string>
+    <string name="gasht_alpha_full_content">به جز «گشت ون» و «ایست بازرسی» انواع دیگری از گشت ارشاد از جمله گشت موتوری و گشت نفری هم وجود دارد که همگی با استفاده از این نماد گزارش می‌شوند</string>
+    <string name="checkpoint_title">ایست بازرسی</string>
+    <string name="checkpoint_content">گزارش ایست‌های بازرسی که اقدام به توقف خودروها، پرسیدن سوال از سرنشین‌ها و در مواردی جستجوی خودرو می‌کنند</string>
+    <string name="van_title">گزارش گشت ون</string>
+    <string name="van_content">ون‌ها و دیگر خودروهای گشت ارشاد که توسط کاربران گزارش شده‌اند</string>
+    <string name="gasht_alpha_half_title">گزارش‌های قدیمی</string>
+    <string name="gasht_alpha_half_content">مکان‌های گشت ارشاد که بیشتر از ۶ ساعت از زمان گزارش آنها گذشته در نقشه کم رنگ و به صورت محو شده نمایان می‌شوند.</string>
+    <string name="favorite_title">ذخیره مکان‌های محبوب</string>
+    <string name="favorite_content">شما می توانید مکان هایی را که زیاد به آن سفر کرده اید ذخیره کنید. در صورتی که گشت ارشادی در آن مکان گزارش شود، شما دریافت خواهید کرد.</string>
+    <string name="share_title">به اشتراک گذاشتن مکان گشت</string>
+    <string name="share_content">با انتخاب مکان یک گشت در نقشه و کلیک روی آیکون اشتراک، شما می‌توانید زمان و آدرس آن گشت را با دوستان یا خانواده خود به اشتراک بگذارید.</string>
+    <string name="report_list_title">لیست گزارش‌ها</string>
+    <string name="report_list_content">برای دیدن تمام گزارش‌های روز در قالب یک لیست. با کلیک روی هر گزارش می‌توانید مکان آن گشت را در نقشه پیدا کنید.</string>
+    <string name="feedback_title">بازخورد</string>
+    <string name="feedback_content">از طریق اپلیکیشن نظرات و پیشنهادات خود را به صورت ناشناس با ما در میان بگذارید.</string>
+    <string name="settings_title">استفاده از پروکسی</string>
+    <string name="settings_content">گرشاد برای ادامه دسترسی کاربران هنگام فیلترینگ اپلیکیشن از پروکسی استفاده می‌کند. اتصال به پروکسی را ازطریق قسمت تنظیمات می‌توانید قطع و وصل کنید.</string>
+    <string name="confirmed_title">گزارش‌های تایید شده توسط کاربران</string>
+    <string name="confirmed_content">در نقشه نشان داده می‌شوند. مکان‌های گشت ارشاد تایید شده توسط کاربران که بیشتر از ۶ ساعت از زمان گزارش آنها گذشته در نقشه کم رنگ و به صورت محو شدهنمایان می‌شوند.</string>
+
+
+    <string name="complete">Complete</string>
+    <string name="general_settings">General Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="reports_near_you">Reports near your</string>
+    <string name="reports_near_your_saved_locations">Reports near your saved locations</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete_this_location_question">Do you want to delete this location?</string>
+    <string name="no_reports">There are no reports in your area.</string>
+    <string name="title_reports">Reports</string>
+    <string name="meter">M</string>
+    <string name="kilometer">KM</string>
+    <string name="search_location_hint">Search for city or address</string>
+    <string name="unspecified">""</string>
+    <string name="title_save_location">Save Location</string>
+    <string name="location_saved">Location Saved</string>
+    <string name="share_this_report">Share this report</string>
+    <string name="share_report_text">Check out this report from Gershad at %s</string>
+    <string name="proxy">Proxy</string>
+    <string name="privacy_tools">Privacy Tools</string>
+    <string name="map">Map</string>
+    <string name="report_count">%s reports</string>
+    <string name="save_location">Save Location</string>
+    <string name="default_font">fonts/IRANSans.ttf</string>
+    <string name="bold_font_path">fonts/IRANSans_Bold.ttf</string>
+    <string name="gershad_feedback">Gershad Feedback</string>
+    <string name="gershad_version">Gershad Version</string>
+    <string name="select_gasht_and_report">Select Gasht and Report</string>
+    <string name="submitting_report">Submitting Report</string>
+    <string name="report_saved">Report Saved</string>
+    <string name="write_additional_details">Write Additional Details</string>
+    <string name="details_you_observed">Please write any details you observed</string>
+    <string name="title_report_details">Report Details</string>
+    <string name="field_is_required">Field is required</string>
+    <string name="time_out_retry_check_connection">Request timed out, retry request</string>
+    <string name="my_details">My Details</string>
+    <string name="edit">Edit</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="uninstall_in_menu">Uninstall in menu</string>
+    <string name="title_uninstall">Uninstall</string>
+    <string name="update_application">New version of Gershad available. Update?</string>
+    <string name="download_in_progress">Download in progress</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    app:itemBackground="@drawable/menu_navbar_bg">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main_map"
+            android:icon="@drawable/menu_map"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/menu_reports_list"
+            android:title="@string/reports" />
+        <item
+            android:id="@+id/nav_saved_locations"
+            android:icon="@drawable/menu_saved_location"
+            android:title="@string/saved_locations" />
+    </group>
+    <group android:id="@+id/drawer_settings">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/menu_settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/menu_help"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/menu_faq"
+            android:title="@string/feedback" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/menu_about"
+            android:title="@string/title_about" />
+
+        <item
+            android:id="@+id/nav_uninstall"
+            android:icon="@drawable/menu_delete"
+            android:title="@string/title_uninstall"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_version"
+            app:showAsAction="always|withText"
+            android:title="" />
+    </group>
+</menu>

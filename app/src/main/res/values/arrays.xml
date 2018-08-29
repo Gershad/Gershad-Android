@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_van_icons">
+        <item>@drawable/ic_van_1</item>
+        <item>@drawable/ic_van_2</item>
+        <item>@drawable/ic_van_3</item>
+        <item>@drawable/ic_van_4</item>
+        <item>@drawable/ic_van_5</item>
+        <item>@drawable/ic_van_6</item>
+        <item>@drawable/ic_van_7</item>
+        <item>@drawable/ic_van_8</item>
+        <item>@drawable/ic_van_9</item>
+        <item>@drawable/ic_van_9plus</item>
+    </array>
+
+    <array name="array_stop_icons">
+        <item>@drawable/ic_stop_1</item>
+        <item>@drawable/ic_stop_2</item>
+        <item>@drawable/ic_stop_3</item>
+        <item>@drawable/ic_stop_4</item>
+        <item>@drawable/ic_stop_5</item>
+        <item>@drawable/ic_stop_6</item>
+        <item>@drawable/ic_stop_7</item>
+        <item>@drawable/ic_stop_8</item>
+        <item>@drawable/ic_stop_9</item>
+        <item>@drawable/ic_stop_9plus</item>
+    </array>
+
+    <array name="array_gasht_icons">
+        <item>@drawable/ic_police_1</item>
+        <item>@drawable/ic_police_2</item>
+        <item>@drawable/ic_police_3</item>
+        <item>@drawable/ic_police_4</item>
+        <item>@drawable/ic_police_5</item>
+        <item>@drawable/ic_police_6</item>
+        <item>@drawable/ic_police_7</item>
+        <item>@drawable/ic_police_8</item>
+        <item>@drawable/ic_police_9</item>
+        <item>@drawable/ic_police_9plus</item>
+    </array>
+
+    <!-- Note: Unspecified reuses icons for stop. It is possible to have a new/distinct icon set for unspecified as well -->
+    <array name="array_unspecified_icons">
+        <item>@drawable/ic_stop_1</item>
+        <item>@drawable/ic_stop_2</item>
+        <item>@drawable/ic_stop_3</item>
+        <item>@drawable/ic_stop_4</item>
+        <item>@drawable/ic_stop_5</item>
+        <item>@drawable/ic_stop_6</item>
+        <item>@drawable/ic_stop_7</item>
+        <item>@drawable/ic_stop_8</item>
+        <item>@drawable/ic_stop_9</item>
+        <item>@drawable/ic_stop_9plus</item>
+    </array>
+
+</resources>

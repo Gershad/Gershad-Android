@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_map_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="@dimen/z_height_bottom_sheet">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Map fragment -->
+        <fragment
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/map_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/my_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="75dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/locator"/>
+
+            <Button
+                android:id="@+id/button_action_report"
+                style="@style/RoundedButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:background="@drawable/button_report_selector"
+                android:enabled="false"
+                android:paddingEnd="60dip"
+                android:paddingStart="60dip"
+                android:elevation="2dp"
+                android:text="@string/location_not_available"
+                android:textColor="@android:color/black"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                fontPath="@string/bold_font_path"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/reporting_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="#9c000000">
+
+            <TextView
+                android:id="@+id/reporting_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:text="@string/select_gasht_and_report"
+                fontPath="@string/bold_font_path"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@android:color/transparent"
+                    android:id="@+id/layout_report_type_panel">
+
+                    <LinearLayout
+                        android:id="@+id/button_report_police"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="8dip"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center_horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/report_police"
+                            android:background="@drawable/circle_background_yellow"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/white"
+                            android:text="@string/police"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/button_report_van"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="8dip"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center_horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/report_van"
+                            android:background="@drawable/circle_background_yellow"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/white"
+                            android:text="@string/van"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/button_report_checkpoint"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="8dip"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center_horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/report_stop"
+                            android:background="@drawable/circle_background_yellow"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/white"
+                            android:text="@string/stop"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/cancel_report_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    style="@style/BaseBorderlessFilterButtonStyle"
+                    android:src="@drawable/report_close"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/camera_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="4dip"
+            android:padding="10dp"
+            android:background="@drawable/rounded_bg_location"
+            android:layout_above="@+id/map_pin"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:id="@+id/center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:layout_alignBottom="@id/center"/>
+
+        <ImageView
+            android:id="@+id/map_pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignBottom="@id/center"
+            android:src="@drawable/map_pin_selector" />
+    </RelativeLayout>
+
+    <!-- BottomSheet -->
+    <include
+        android:id="@+id/bottom_sheet_reports"
+        layout="@layout/bottomsheet_report_summary"
+        android:visibility="gone" />
+
+</android.support.design.widget.CoordinatorLayout>

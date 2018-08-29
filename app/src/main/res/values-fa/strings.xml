@@ -1,0 +1,134 @@
+<resources>
+
+    <!-- General -->
+    <string name="dismiss">انصراف</string>
+    <string name="delete">حذف</string>
+    <string name="share">هم​‌رسانی</string>
+    <string name="save">ذخیره</string>
+    <string name="verify">گزارش</string>
+    <string name="cancel">لغو</string>
+
+    <string name="app_name">گرشـــاد</string>
+    <string name="title_about">درباره گرشاد</string>
+
+    <string name="reports_here">همه گزارش‌​ها</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="out_of_range">خارج از محدوده</string>
+
+    <string name="report">گزارش</string>
+    <string name="location_not_available">مکان نامشخص</string>
+    <string name="recent_submission_no_timestamp">همین الان</string>
+
+    <!-- Gasht types -->
+    <string name="police">گشت</string>
+    <string name="stop">ایست بازرسی</string>
+    <string name="van">گشت ون</string>
+
+    <!-- Keys, do not translate -->
+
+    <string name="error_google_play_services">سرویس گوگل‌پلی با مشکلی مواجه شده و قادر به نشان دادن نقشه نیست</string>
+    <!-- Onboarding -->
+
+    <string name="text_activity_onboarding1">گرشاد راه حلی است برای تردد در شهر، بدون روبه‌​رو شدن با گشت ارشاد</string>
+    <string name="text_activity_onboarding2">گزارش گشت لباس شخصی، گشت ون، و یا ایست بازرسی با گرشاد</string>
+    <string name="text_activity_onboarding3">اطلاعات بیشتر درباره هر گشت را به گزارش خود اضافه کنید</string>
+
+    <string name="title_onboarding1">گرشـــاد</string>
+    <string name="title_onboarding2">گزارش با گرشاد</string>
+    <string name="title_onboarding3">توضیح گزارش</string>
+
+    <string name="title_saved_locations">مکان​‌های ذخیره شده</string>
+
+    <!--Misc -->
+    <string name="no_saved_items">مکانی به این لیست اضافه نشده است</string>
+    <string name="error_location_undetermined">قادر به شناسایی مکان شما نیستیم</string>
+    <string name="allow">اجازه دسترسی</string>
+    <string name="later">بعدا</string>
+    <string name="location_permission">گرشاد برای ثبت گزارش باید به موقعیت مکانی شما دسترسی داشته باشد. در صورت ندادن اجازه دسترسی،​ تنها می‌​توانید گزارش​‌ها رامشاهده کنید.</string>
+    <string name="next">بعدی</string>
+    <string name="skip">جهش</string>
+    <string name="reports">لیست گزارش​‌ها</string>
+    <string name="saved_locations">مکان​‌های ذخیره شده</string>
+    <string name="settings">تنظیمات</string>
+    <string name="help">راهنمای گرشاد</string>
+    <string name="feedback">نظرات و انتقادات</string>
+    <string name="about_gershad">گرشاد یک نقشه از شهرهای مختلف ایران است‌، به همراه اطلاعات به‌روز از آخرین نقاطی که گشت ارشاد در آنجا حضور دارد. شما با نگاه کردن به نقشه شهری که در آن زندگی می‌کنید می‌توانید مسیر‌هایی را انتحاب کنید که احتمال برخورد با گشت در آن‌ها کمتر باشد. همزمان وقتی به یک گشت ارشاد در نقطه‌ای از شهر برمی‌خورید، می‌توانید با صرفاً چند ثانیه و به راحتی، مکان آن را در گرشاد نشانه‌گذاری کنید و دیگر شهروندان را از گرفتار شدن در دام نجات دهید.</string>
+    <string name="version">نسخه</string>
+    <string name="submit">ارسال</string>
+    <string name="no_email">ایمیلی وجود ندارد.</string>
+
+    <!--FAQ-->
+    <string name="yellow_location_pin_title">چگونه می‌توانم مکان یک گشت را گزارش کنم؟</string>
+    <string name="yellow_location_pin_content">پس ازانتخاب مکان گزارش‌ خود، روی آدرس‌نما که به رنگ زرد است کلیک کنید و دکمه گزارش را فشار دهید.</string>
+    <string name="grey_location_pin_title">چرا نمی‌توانم مکان یک گشت را گزارش کنم؟</string>
+    <string name="grey_location_pin_content">وقتی محل گشت مورد نظر شما دورتر از ۱۰۰۰ متر مکان جغرافیایی شما است، رنگ آدرس‌نما طوسی می‌شود. در این حالت شما امکان گزارش گشت را ندارید.</string>
+    <string name="gasht_alpha_full_title">گشت</string>
+    <string name="gasht_alpha_full_content">به جز «گشت ون» و «ایست بازرسی» انواع دیگری از گشت ارشاد از جمله گشت موتوری و گشت نفری هم وجود دارد که همگی با استفاده از این نماد گزارش می‌شوند</string>
+    <string name="checkpoint_title">ایست بازرسی</string>
+    <string name="checkpoint_content">گزارش ایست‌های بازرسی که اقدام به توقف خودروها، پرسیدن سوال از سرنشین‌ها و در مواردی جستجوی خودرو می‌کنند</string>
+    <string name="van_title">گزارش گشت ون</string>
+    <string name="van_content">ون‌ها و دیگر خودروهای گشت ارشاد که توسط کاربران گزارش شده‌اند</string>
+    <string name="gasht_alpha_half_title">گزارش‌های قدیمی</string>
+    <string name="gasht_alpha_half_content">مکان‌های گشت ارشاد که بیشتر از ۶ ساعت از زمان گزارش آنها گذشته در نقشه کم رنگ و به صورت محو شده نمایان می‌شوند.</string>
+    <string name="comment_title">نوشتن توضیح</string>
+    <string name="comment_content">کاربران می توانند علاوه بر گزارش مکان گشت ارشاد، درباره آنها توضیح هم نوشتن. به عنوان مثال اگر یک گشت ارشاد شهروندان را متوقف کرده و از آنها در مورد «نسبت» شان با همراهانشان می پرسد، می توان «گشت نسبت» را به عنوان توضیح اضافه کرد. هر کاربر نیز می تواند توضیحات خود را اضافه کرده و یا حذف یا حذف کند.</string>
+    <string name="favorite_title">ذخیره مکان‌های محبوب</string>
+    <string name="favorite_content">برای دسترسی و چک کردن سریع‌تر مکان‌های معمول گشت ارشاد، شما می‌توانید مکان‌های مورد نظر خود را در اپلیکیشن ذخیره کنید. برای ذخیره‌ی یک مکان روی گزارش یک گشت در نقشه کلیک کنید و آیکون ستاره را فشار دهید. شما می‌توانید مکان‌های ذخیره شده را با کلیک روی آیکون در  منو اپلیکیشن پیدا کنید.</string>
+    <string name="share_title">به اشتراک گذاشتن مکان گشت</string>
+    <string name="share_content">با انتخاب مکان یک گشت در نقشه و کلیک روی آیکون اشتراک، شما می‌توانید زمان و آدرس آن گشت را با دوستان یا خانواده خود به اشتراک بگذارید.</string>
+    <string name="report_list_title">لیست گزارش‌ها</string>
+    <string name="report_list_content">برای دیدن تمام گزارش‌های روز در قالب یک لیست، با کلیک روی هر گزارش می‌توانید مکان آن گشت را در نقشه پیدا کنید.</string>
+    <string name="feedback_title">بازخورد</string>
+    <string name="feedback_content">از طریق اپلیکیشن نظرات و پیشنهادات خود را به صورت ناشناس با ما در میان بگذارید.</string>
+    <string name="settings_title">استفاده از پروکسی</string>
+    <string name="settings_content">گرشاد برای ادامه دسترسی کاربران هنگام فیلترینگ اپلیکیشن از پروکسی استفاده می‌کند. اتصال به پروکسی را ازطریق قسمت تنظیمات می‌توانید قطع و وصل کنید.</string>
+    <string name="confirmed_title">گزارش‌های تایید شده توسط کاربران</string>
+    <string name="confirmed_content">مکان‌های گشت ارشاد تایید شده توسط کاربران که بیشتر از ۶ ساعت از زمان گزارش آن‌ها گذشته در نقشه کم‌رنگ و به صورت محو شده نمایان می‌شوند.</string>
+    <string name="delete_title">حذفِ اپلیکیشن</string>
+    <string name="delete_content">این گزینه گشاد را به سرعت از گوشی حذف می کند و به خاطر امنیت بیشتر اضافه شده است.</string>
+
+    <string name="complete">شروع</string>
+    <string name="general_settings">تنظیمات کلی</string>
+    <string name="notifications">اطلاعیه‌​ها</string>
+    <string name="reports_near_you">گزارش جدید نزدیک شما</string>
+    <string name="reports_near_your_saved_locations">گزارش جدید نزدیک مکان ذخیره شده</string>
+    <string name="confirm">نصب</string>
+    <string name="delete_this_location_question">گزارش پاک شود؟</string>
+    <string name="no_reports">گزارشی در این محدوده وجود ندارد</string>
+    <string name="title_reports">لیست گزارش‌​ها</string>
+    <string name="meter">متر</string>
+    <string name="kilometer">کیلومتر</string>
+    <string name="search_location_hint">جستجو شهر و آدرس</string>
+    <string name="unspecified">""</string>
+    <string name="title_save_location">ذخیره مکان</string>
+    <string name="location_saved">مکان ذخیره شد</string>
+    <string name="share_this_report">یکی از برنامه های زیر را جهت هم‌رسانی انتخاب کنید</string>
+    <string name="share_report_text">این گزارش از گرشاد را در  %s ببینید.</string>
+    <string name="proxy">پروکسی</string>
+    <string name="privacy_tools">ابزار امنیتی</string>
+    <string name="map">نقشه</string>
+    <string name="report_count">%s گزارش</string>
+    <string name="save_location">ذخیره این مکان</string>
+    <string name="default_font">fonts/IRANSans.ttf</string>
+    <string name="bold_font_path">fonts/IRANSans_Bold.ttf</string>
+    <string name="gershad_feedback">بازخورد</string>
+    <string name="gershad_version">نسخه گرشاد </string>
+    <string name="select_gasht_and_report">انتخاب گشت و ثبت گزارش</string>
+    <string name="submitting_report">بارگذاری گزارش</string>
+    <string name="report_saved">گزارش دریافت شد!</string>
+    <string name="write_additional_details">نوشتن توضیحات بیشتر</string>
+    <string name="details_you_observed">لطفا جزییات مشاهدات خود را بنویسید</string>
+    <string name="title_report_details">نوشتن توضیح</string>
+    <string name="field_is_required">پر کردن این قسمت الزامی است.</string>
+    <string name="time_out_retry_check_connection">تایم اوت</string>
+    <string name="my_details">جزییات</string>
+    <string name="edit">ویرایش</string>
+    <string name="uninstall">حذفِ اپلیکیشن</string>
+    <string name="uninstall_in_menu">حذف از طریق منو</string>
+    <string name="title_uninstall">حذفِ اپلیکیشن</string>
+    <string name="update_application">نسخه جدید گرشاد در دسترس است. به‌روز رسانی کنم؟</string>
+    <string name="download_in_progress">در حال دانلود</string>
+</resources>

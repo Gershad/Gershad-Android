@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC41F</color>
+    <color name="colorPrimaryDark">#86000000</color>
+    <color name="colorAccent">@color/colorPrimary</color>
+    <!-- no accent color -->
+
+    <color name="colorMapRadiusOverlay">#66cccccc</color>
+
+    <color name="colorBackground">#EFEFEF</color>
+    <color name="colorDivisionBorderGray">#E2E2E2</color>
+
+    <color name="colorPrimaryText">#3B3B3B</color>
+    <color name="colorSecondaryText">#B2B2B2</color>
+    <color name="colorActionConfirm">#3EC48B</color>
+
+    <!-- context action bar -->
+    <!--<color name="black_overlay">#66000000</color>-->
+</resources>
